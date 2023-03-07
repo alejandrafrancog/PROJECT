@@ -1,0 +1,119 @@
+*{
+    font-family: 'Varela Round';
+    margin: 0px;
+    
+    
+}
+nav{
+    padding-top: 15px;
+    display: inline-flex;
+    padding-bottom: 10px;
+    margin-left: 15px;   
+}
+.nav{
+    background-color: teal;
+}
+.nav img{
+    margin-left: 50px ;
+}
+a{
+    margin-left: 80px;
+    text-decoration: none;
+}
+input{
+    padding-top: 8px;
+    padding-bottom: 5px;
+    
+}
+.logout-btn{
+    background-color: rgb(3, 109, 91);
+    color: aliceblue;
+    border-radius:15px;
+    border-color: rgb(3,109,91);
+    padding: 18px   10px;
+    align-items: center;
+    margin-left: 900px;
+    
+    
+}
+h4{
+    font-size: 50px;
+    color: black;
+}
+.logout-btn:hover{
+    background-color:rgb(7, 100, 100);
+    cursor: pointer;
+    
+}
+
+body form, body h4{
+    margin-left: 50px;
+}
+div p{
+    background-color:darkseagreen;
+    width:450px;
+    height: auto;
+    size-adjust:inherit;
+    margin-left: 3rem;
+    word-wrap: break-word;
+    border: solid;
+    border-width: 1px;
+}   
+
+.delete-post{
+    margin-left:480px;
+    align-items: baseline;
+}
+.delete-post img:hover{
+    align-items: baseline;
+    width: 38px;
+}
+#success{
+    background-color: green;
+    color:white;
+}/*
+div a img{
+    background-color: white;
+
+}*/
+div a img:hover{
+    background-color: rgb(4, 60, 70);
+
+}
+
+.big-div{
+    padding-top: 20px;
+    background-color: palegoldenrod;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+.like:hover{
+    color:darkred;
+    font-size: larger;
+}
+.user_name{
+    text-decoration:solid;
+    text-shadow:2px 2px yellow;
+    text-decoration-color:slateblue;
+}
+div p a{
+    color: rgb(1, 1, 29);
+    font-size: larger;
+
+}
+.total{
+    background-color: white;
+    text-decoration: none;
+}
+
+th{
+    color: white;
+    background-color: rgb(5, 5, 48);
+}
+td{
+    background-color: skyblue;
+}
+.people-like,table{
+    margin-left: 2rem;
+}
